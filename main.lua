@@ -596,7 +596,7 @@ local function BuildPlot(Folder,CFrame)
                 end
 
                 Notify("Building...",tostring(i).."/"..tostring(#FolderTable))
-                wait(1)
+                wait(0.3)
             end
         end)
     end
